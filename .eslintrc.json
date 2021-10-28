@@ -1,0 +1,10 @@
+{
+  "env": {
+    "node": true,
+    "commonjs": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "extends": ["./index.js"]
+}
