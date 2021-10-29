@@ -1,32 +1,9 @@
 module.exports = {
-  extends: ['prettier'],
   plugins: ['prettier'],
-  rules: {
-    'arrow-body-style': 'off',
-    'block-scoped-var': 'error',
-    'class-methods-use-this': 'off',
-    'comma-dangle': ['error', 'never'],
-    'eqeqeq': ['error', 'always', { null: 'ignore' }],
-    'func-names': 'warn',
-    'indent': ['error', 2],
-    'no-console': 'warn',
-    'no-var': 'error',
-    'no-void': 'error',
-    'no-useless-return': 'error',
-    'no-return-assign': ['error', 'always'],
-    'no-return-await': 'error',
-    'no-throw-literal': 'error',
-    'no-useless-catch': 'error',
-    'no-useless-concat': 'error',
-    'no-useless-escape': 'error',
-    'no-shadow': 'off',
-    'no-unused-vars': 'off',
-    'no-use-before-define': 'off',
-    'prettier/prettier': 'error',
-    'prefer-arrow-callback': 'off',
-    'quotes': ['error', 'single'],
-    'require-await': 'off',
-    'semi': ['error', 'always'],
-    'yoda': 'error'
-  }
+  extends: [
+    'prettier',
+    './rules/errors.js',
+    './rules/style.js',
+    './rules/variables.js'
+  ]
 };
