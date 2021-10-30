@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "author": "",
-  "scripts": {
-    "test": "echo \"Ok\""
-  },
+  "author": "drethenrain",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/schoolseat/eslint-config-schoolseat.git"
