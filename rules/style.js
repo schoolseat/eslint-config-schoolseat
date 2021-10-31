@@ -1,4 +1,6 @@
 module.exports = {
+  extends: ['prettier'],
+  plugins: ['prettier'],
   rules: {
     'arrow-body-style': 'off',
     'block-spacing': ['error', 'always'],
