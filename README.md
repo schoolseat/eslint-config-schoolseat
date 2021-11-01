@@ -1,15 +1,15 @@
 <h1 align="center"> SchoolSeat ESLint Config </h1>
 
-## 🛠 Usage
+## Usage
 
 1. Install dependencies
 
 ```bash
 # npm
-npm install eslint-config-schoolseat eslint-config-prettier eslint-plugin-prettier prettier --save-dev
+npm install eslint-config-schoolseat eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-import --save-dev
 
 # yarn
-yarn add eslint-config-schoolseat eslint-config-prettier eslint-plugin-prettier prettier -D
+yarn add eslint-config-schoolseat eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-import -D
 
 # for typescript, add @typescript-eslint/parser @typescript-eslint/eslint-plugin
 
@@ -18,6 +18,8 @@ yarn add eslint-config-schoolseat eslint-config-prettier eslint-plugin-prettier 
 2. Extends config
 
 ```json
+// json
+
 {
   "extends": ["schoolseat"]
 }
@@ -26,6 +28,8 @@ yarn add eslint-config-schoolseat eslint-config-prettier eslint-plugin-prettier 
 For TypeScript, add `schoolseat/typescript`.
 
 ```json
+// json
+
 {
   "extends": ["schoolseat", "schoolseat/typescript"]
 }
@@ -37,7 +41,7 @@ For TypeScript, add `schoolseat/typescript`.
 
 - [x] TypeScript
 - [x] Prettier
-- [ ] Import Plugin/Config
+- [x] Import Plugin/Config
 - [ ] React
 
 <p align="center">Made with ❤️ by <a href="https://github.com/orgs/schoolseat/people">SchoolSeat Team</a></p>
