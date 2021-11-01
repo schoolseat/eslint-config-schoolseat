@@ -1,9 +1,15 @@
 {
   "name": "eslint-config-schoolseat",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "main": "index.js",
   "license": "MIT",
   "author": "drethenrain",
+  "keywords": [
+    "eslintconfig",
+    "eslint",
+    "config",
+    "schoolseat"
+  ],
   "scripts": {},
   "repository": {
     "type": "git",
