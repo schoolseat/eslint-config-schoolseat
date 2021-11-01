@@ -23,11 +23,11 @@ yarn add eslint-config-schoolseat eslint-config-prettier eslint-plugin-prettier 
 }
 ```
 
-For TypeScript, use `schoolseat/typescript`.
+For TypeScript, add `schoolseat/typescript`.
 
 ```json
 {
-  "extends": ["schoolseat/typescript"]
+  "extends": ["schoolseat", "schoolseat/typescript"]
 }
 ```
 
