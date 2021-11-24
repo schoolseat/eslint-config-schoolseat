@@ -1,36 +1,35 @@
 {
   "name": "eslint-config-schoolseat",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
-  "author": "drethenrain",
+  "author": "drethenrain <drethenrain@hotmail.com>",
   "keywords": [
     "eslintconfig",
     "eslint",
     "config",
     "schoolseat"
   ],
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/schoolseat/eslint-config-schoolseat.git"
+  "repository": "https://github.com/schoolseat/eslint-config-schoolseat.git",
+  "scripts": {
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix",
+    "prepare": "husky install"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.2.0",
-    "@typescript-eslint/parser": "^5.2.0",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-prettier": "^4.0.0",
+    "eslint": "^7.32.0 || ^8.3.0",
     "prettier": "^2.4.1"
   },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.2.0",
-    "@typescript-eslint/parser": "^5.2.0",
-    "eslint": "^7.32.0",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.3.0",
+    "husky": "^7.0.4",
     "prettier": "^2.4.1"
   }
 }

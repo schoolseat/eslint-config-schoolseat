@@ -6,13 +6,10 @@
 
 ```bash
 # npm
-npm install eslint-config-schoolseat eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-import --save-dev
+npm install eslint-config-schoolseat prettier@^2.4.1 eslint@^7.32.0 --save-dev
 
 # yarn
-yarn add eslint-config-schoolseat eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-import -D
-
-# for typescript, add @typescript-eslint/parser @typescript-eslint/eslint-plugin
-
+yarn add eslint-config-schoolseat prettier@^2.4.1 eslint@^7.32.0 -D
 ```
 
 2. Extends config

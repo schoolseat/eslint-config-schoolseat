@@ -11,6 +11,7 @@ module.exports = {
         capIsNew: false
       }
     ],
+    'no-bitwise': 'error',
     'no-console': 'warn',
     'no-var': 'error',
     'no-void': 'error',
@@ -18,6 +19,7 @@ module.exports = {
     'no-return-assign': ['error', 'always'],
     'no-return-await': 'error',
     'no-throw-literal': 'error',
+    'no-plusplus': 'error',
     'no-useless-catch': 'error',
     'no-useless-concat': 'error',
     'no-useless-escape': 'error',
